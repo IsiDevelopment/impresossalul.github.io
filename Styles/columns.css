@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+.column h2{
+  text-align: center;
+}
+.column li{
+  text-align: left;
+  padding: 0 50px ;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
