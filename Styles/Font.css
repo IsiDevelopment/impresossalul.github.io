@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .red{
   color: #CC0001
 }
@@ -8,4 +11,7 @@
 
 .bg_red{
   background: #CC0001
+}
+.bg_black{
+  background: #2E2E2E
 }
