@@ -25,9 +25,17 @@
   width: 80%;
   text-align: center;
 }
+
+.big_f{
+  font-size: 3vw;
+}
+
 @media screen and (max-width: 800px) {
   .column{
     width: 100%;
     height: auto;
+  }
+  .big_f{
+    font-size: 30px;
   }
 }
