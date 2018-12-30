@@ -27,11 +27,15 @@
 }
 
 .font_20{
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .font_18{
-  font-size: 28px;
+  font-size: 33px;
+}
+
+.font_15{
+  font-size: 25px;
 }
 
 @media screen and (max-width: 800px) {
@@ -44,5 +48,8 @@
   }
   .font_18{
     font-size: 18px;
+  }
+  .font_15{
+    font-size: 15px;
   }
 }
