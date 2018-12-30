@@ -26,8 +26,12 @@
   text-align: center;
 }
 
-.big_f{
-  font-size: 3vw;
+.font_20{
+  font-size: 30px;
+}
+
+.font_18{
+  font-size: 28px;
 }
 
 @media screen and (max-width: 800px) {
@@ -35,7 +39,10 @@
     width: 100%;
     height: auto;
   }
-  .big_f{
-    font-size: 30px;
+  .font_20{
+    font-size: 20px;
+  }
+  .font_18{
+    font-size: 18px;
   }
 }
