@@ -5,35 +5,52 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Yantramanav:100" rel="stylesheet">
   <link href="Styles/columns.css" rel="stylesheet"/>
+  <link href="Styles/header.css" rel="stylesheet"/>
+  <link href="Styles/Font.css" rel="stylesheet"/>
 <!--
   <script src="JavaScript/parallax_effect.js"></script>
   <link href="Styles/header.css" rel="stylesheet"/>
   <link href="Styles/Font.css" rel="stylesheet"/>
 -->
-  <title>Matemáticas Románticas</title>
-
+  <title>La imprenta</title>
 </head>
 <body>
-
-
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">La imprenta</a>
+    <div class="dropdown">
+      <button class="dropbtn">Productos
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+    <a href="#news">Nosotros</a>
+    <a href="#contact">Clientes</a>
+    <a href="#about">Cont&aacute;ctanos</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
   <div>
     <img src="Images/1.jpg" alt="Girl in a jacket" width="300" height="180">
     <span style="float: right">IMPRIMIMOS<br/>OFFSET</span>
   </div>
-  <div style="text-align: center; background: red; color: white">M&Aacute;S DE 20 A&Ntilde;OS DE EXPERIENCIA</div>
-  <div><img src="Images/2.jpg" alt="Girl in a jacket" width="100%" height="100%"></div>
+  <div class="bg_red" style="text-align: center; color: white;">M&Aacute;S DE 20 A&Ntilde;OS DE EXPERIENCIA</div>
+  <img src="Images/2.jpg" width="100%" height="100%" >
   <div style="height: 20px; background: black;"></div>
   <div style="text-align: center">GARANT&Iacute;A DE CALIDAD EN NUESTRO TRABAJO</div>
   <div style="text-align: center">ESPECIALISTAS EN LAS SIGUIENTES &Aacute;REAS:</div>
   <div class="row">
   <div class="column">
-    <h2>IMPRESI&Oacute;N DE PAPELER&Iacute;A INTERNA:</h2>
+    <p class="circle_margin red" style="margin: auto;">IMPRESI&Oacute;N DE PAPELER&Iacute;A INTERNA:</p>
     <li>Formatos de control</li>
     <li>Reportes</li>
     <li>Comandas de restaurant</li>
@@ -43,7 +60,7 @@
     <li>Notas de remisiones, etc</li>
   </div>
   <div class="column">
-    <h2>IMPRESI&Oacute;N DE PAPELER&Iacute;A COMERCIAL:</h2>
+    <p class="circle_margin red" style="margin: auto">IMPRESI&Oacute;N DE PAPELER&Iacute;A COMERCIAL:</p>
     <li>Blondas</li>
     <li>Men&uacute;s</li>
     <li>Manteles</li>
@@ -52,7 +69,7 @@
     <li>Diplomas, etc</li>
   </div>
   <div class="column">
-    <h2>IMPRESI&Oacute;N DE PAPELER&Iacute;A EMPRESARIAL:</h2>
+    <p class="circle_margin red" style="margin: auto">IMPRESI&Oacute;N DE PAPELER&Iacute;A EMPRESARIAL:</p>
     <li>Tarjetas de presentaci&oacute;n</li>
     <li>Hojas membretadas</li>
     <li>Sobres</li>
@@ -62,6 +79,15 @@
   <footer
     <p><a href="#">Matematicas Románticas</a></p>
   </footer>
-
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 </body>
 </html>

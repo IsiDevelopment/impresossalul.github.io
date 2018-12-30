@@ -1,12 +1,9 @@
-* {
-  box-sizing: border-box;
-}
 
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
   width: 33.3%;
-  padding: 10px;
+  padding: 0px;
   height: auto; /* Should be removed. Only for demonstration */
 }
 .column h2{
@@ -16,9 +13,22 @@
   text-align: left;
   padding: 0 50px ;
 }
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+.circle_margin{
+  border: 2px solid #2E2E2E;
+  padding: 10px;
+  border-radius: 25px;
+  width: 80%;
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .column{
+    width: 100%;
+    height: auto;
+    color: red;
+  }
 }

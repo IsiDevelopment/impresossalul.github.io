@@ -1,105 +1,11 @@
-html {
-  scroll-behavior: smooth;
+.red{
+  color: #CC0001
 }
 
-#image_font{
-  position:relative;
-  z-index:-1;
-  height:auto;
-  width:100%;
-  margin:-5% 0%;
-  opacity: 0.9;
-  filter: grayscale(0%);
-  filter: brightness(30%);
+.black{
+  color: #2E2E2E
 }
 
-#image_info{
-  position:relative;
-  z-index:-1;
-  height:auto;
-  width:100%;
-  margin:0% 0%;
-  opacity: 0.9;
-  filter: grayscale(0%);
-  filter: brightness(30%);
-}
-
-#content_font{
-  height:auto;
-  width:100%;
-  margin-top:-10px;
-  background-color:#fff;
-  position:relative;
-  z-index:-1;
-}
-
-#title_font {
-  font-size: 5vw;
-  color: white;
-  font-family: 'Yantramanav', sans-serif;
-}
-
-#text_centered{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  bottom: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Yantramanav', sans-serif;
-}
-
-#text_top_left{
-  position: absolute;
-  top: 5%;
-  left: 1%;
-  color: white;
-  /*font-family: 'Yantramanav', sans-serif;*/
-}
-
-#text_top_right{
-  position: absolute;
-  top: 8px;
-  right: 16px;
-  font-family: 'Yantramanav', sans-serif;
-}
-
-#text_bottom_left{
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  font-family: 'Yantramanav', sans-serif;
-}
-
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-#text_bottom_right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-  font-family: 'Yantramanav', sans-serif;
-}
-/*
-* {
-  box-sizing: border-box;
-}*/
-
-.column {
-  float: left;
-  max-width: 50%;
-}
-
-.row {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 10%) {
-  .column {
-    width: 90%;
-  }
+.bg_red{
+  background: #CC0001
 }
