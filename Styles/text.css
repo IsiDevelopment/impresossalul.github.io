@@ -1,0 +1,15 @@
+.text_centered{
+  text-align: center;
+}
+.text_black{
+  color: black;
+}
+.text_red{
+  color: #CC0001
+}
+.text_white{
+  color: #ffffff
+}
+.bg_black_st{
+  background: #000000
+}
