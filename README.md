@@ -1,1 +1,2 @@
-# matematicas-romanticas.github.io
+# puravida.github.io
+Pura Vida

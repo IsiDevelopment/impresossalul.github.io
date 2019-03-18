@@ -1,0 +1,46 @@
+.height30p{
+  height: 30px;
+}
+.height135p{
+  height: 135px;
+}
+
+/*borders*/
+.full_b{
+  border-style: inset outset outset inset;
+}
+.right_b{
+  border-right: outset;
+}
+.left_b{
+  border-left: inset;
+}
+
+.border_50{
+  border-radius: 50px;
+}
+#super div img{
+  border-radius: 15px;
+}
+#milk div img{
+  border-radius: 15px;
+}
+#beer div img{
+  border-radius: 15px;
+}
+#tabacco div img{
+  border-radius: 15px;
+}
+
+.width_80{
+  width: 80%;
+}
+
+.div_center{
+  margin: auto;
+}
+
+#a_ref{
+  text-decoration: none;
+  background:none;
+}

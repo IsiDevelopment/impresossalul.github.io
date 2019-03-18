@@ -1,0 +1,50 @@
+.t_title{
+  font-size: 35px;
+  text-align: center;
+}
+.t_info{
+  text-align: center;
+  color: white;
+  padding: 10px 0 0 0;
+}
+.t_gallery{
+  color: #318853;
+  font-size: 25px;
+}
+.t_white{
+  color: white;
+}
+.t_black{
+  color: black;
+}
+.t_center{
+  text-align: center;
+}
+.font_15p{
+  font-size: 15px;
+}
+.font_18p{
+  font-size: 33px;
+}
+.font_20p{
+  font-size: 35px;
+}
+.font_25p{
+  font-size: 40px;
+}
+.text_foot{
+  font-size: 20px;
+}
+@media screen and (max-width: 800px) {
+  .column3{
+    width: 100%;
+    height: auto;
+  }
+  .column2{
+    width: 100%;
+    height: auto;
+  }
+  .font_15p{
+    font-size: 10px;
+  }
+}

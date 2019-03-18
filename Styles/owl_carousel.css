@@ -1,0 +1,28 @@
+.owl-item > div {
+  cursor: pointer;
+  margin: 12% 13% 12% 13%;
+  transition: margin 0.7s ease;
+  border-radius: 15px;
+}
+.owl-item:not(.center) > div{
+  opacity: .75;
+  background: black;
+}
+.owl-item:not(.center) > div:hover{
+  opacity: .85;
+  background: gray;
+}
+.owl-item:not(.center) #a_ref{
+  display: none;
+}
+.owl-item.center > div {
+  cursor: auto;
+  margin: 0;
+}
+.owl-item:not(.center) > div img:hover {
+  opacity: .5;
+}
+.owl-item:not(.center) > div img {
+  opacity: .5;
+  pointer-events: none;
+}

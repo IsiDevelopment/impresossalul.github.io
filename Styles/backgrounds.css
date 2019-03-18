@@ -1,0 +1,56 @@
+.bg_blue{
+  background: #0A58A8;
+}
+
+.bg_white1{
+  background: white;
+}
+.bg_white2{
+  background: #EAEAEC;
+}
+.bg_white3{
+  background: #FCFCFC;
+}
+
+.bg_black{
+  background: black;
+}
+.bg_black1{
+  background: #373839;
+}
+.bg_black2:hover{
+  background: #373839;
+}
+.bg_black_g{
+  background-color: #373839;
+  background-image: linear-gradient(to right, #666666 , #303030);
+}
+.bg_orange_g{
+  background-color: #373839;
+  background-image: linear-gradient(#E77E27 , #E7AA27);
+}
+
+.bg_gray1{
+  background: #F4F7F6;
+}
+.bg_gray2{
+  background: #D1D5D7;
+}
+.bg_gray3{
+  background: #D9DEE4;
+}
+
+.bg_green01:hover{
+  background: #9fac43;
+}
+.bg_green02{
+  background: #EAF7BD;
+}
+
+.bg_brown01{
+  background: #e3dbd7;
+}
+
+.bg_orange01{
+  background: #E77E27;
+}
