@@ -1,12 +1,12 @@
-var $super = $('#super');
-var $milk = $('#milk');var $super = $('#super');
+var $pap_interna = $('#pap_interna');
+var $pap_empresarial = $('#pap_empresarial');
 var $beer = $('#beer');
 var $tabacco = $('#tabacco');
 
-$super.children().each( function( index ) {
+$pap_interna.children().each( function( index ) {
   $(this).attr( 'data-position', index );
 });
-$milk.children().each( function( index ) {
+$pap_empresarial.children().each( function( index ) {
   $(this).attr( 'data-position', index );
 });
 $beer.children().each( function( index ) {
@@ -16,12 +16,12 @@ $tabacco.children().each( function( index ) {
   $(this).attr( 'data-position', index );
 });
 
-$super.owlCarousel({
+$pap_interna.owlCarousel({
   center: true,
   loop: true,
   items: 3
 });
-$milk.owlCarousel({
+$pap_empresarial.owlCarousel({
   center: true,
   loop: true,
   items: 3
@@ -37,11 +37,11 @@ $tabacco.owlCarousel({
   items: 3
 });
 
-$($super).on('click', '.owl-item>div', function() {
-  $super.trigger('to.owl.carousel', $(this).data( 'position' ) );
+$($pap_interna).on('click', '.owl-item>div', function() {
+  $pap_interna.trigger('to.owl.carousel', $(this).data( 'position' ) );
 });
-$($milk).on('click', '.owl-item>div', function() {
-  $milk.trigger('to.owl.carousel', $(this).data( 'position' ) );
+$($pap_empresarial).on('click', '.owl-item>div', function() {
+  $pap_empresarial.trigger('to.owl.carousel', $(this).data( 'position' ) );
 });
 $($beer).on('click', '.owl-item>div', function() {
   $beer.trigger('to.owl.carousel', $(this).data( 'position' ) );
