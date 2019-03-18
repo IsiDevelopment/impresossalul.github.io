@@ -39,6 +39,9 @@
 .bg_gray3{
   background: #D9DEE4;
 }
+.bg_gray4:hover{
+  background: #F4F7F6;
+}
 
 .bg_green01:hover{
   background: #9fac43;
