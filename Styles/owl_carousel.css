@@ -10,9 +10,12 @@
 }
 .owl-item:not(.center) > div:hover{
   opacity: .85;
-  background: gray;
+  background: #CC0001;
 }
 .owl-item:not(.center) #a_ref{
+  display: none;
+}
+.owl-item:not(.center) #div_ref{
   display: none;
 }
 .owl-item.center > div {

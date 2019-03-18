@@ -17,17 +17,20 @@
 .t_black{
   color: black;
 }
+.t_red{
+  color: #CC0001;
+}
 .t_center{
   text-align: center;
 }
-.font_15p{
+.font_12p{
   font-size: 15px;
 }
-.font_18p{
-  font-size: 33px;
+.font_15p{
+  font-size: 20px;
 }
 .font_20p{
-  font-size: 35px;
+  font-size: 23px;
 }
 .font_25p{
   font-size: 40px;
@@ -36,15 +39,16 @@
   font-size: 20px;
 }
 @media screen and (max-width: 800px) {
-  .column3{
-    width: 100%;
-    height: auto;
+  .font_25p{
+    font-size: 25px;
   }
-  .column2{
-    width: 100%;
-    height: auto;
+  .font_20p{
+    font-size: 20px;
+  }
+  .font_12p{
+    font-size: 12px;
   }
   .font_15p{
-    font-size: 10px;
+    font-size: 15px;
   }
 }

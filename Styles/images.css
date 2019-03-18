@@ -27,6 +27,9 @@
   transition: .5s ease;
   backface-visibility: hidden;
 }
+.image_radius15{
+  border-radius: 15px;
+}
 .middle_col {
   transition: .5s ease;
   opacity: 0;
