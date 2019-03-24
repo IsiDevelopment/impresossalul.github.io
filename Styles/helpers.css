@@ -1,10 +1,24 @@
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
 .height30p{
   height: 30px;
 }
 .height135p{
   height: 135px;
 }
-
 /*borders*/
 .full_b{
   border-style: inset outset outset inset;
@@ -18,6 +32,9 @@
 
 .border_50{
   border-radius: 50px;
+}
+.no_border{
+  border-style: none;
 }
 #super div img{
   border-radius: 15px;
@@ -40,7 +57,69 @@
   margin: auto;
 }
 
-#a_ref{
-  text-decoration: none;
-  background:none;
+.formatoHidden{
+  display: none;
+}
+.formatoShowed{
+  display: inline-block;
+}
+.reporteHidden{
+  display: none;
+}
+.reporteShowed{
+  display: inline-block;
+}
+.comandaHidden{
+  display: none;
+}
+.comandaShowed{
+  display: inline-block;
+}
+.solicitudHidden{
+  display: none;
+}
+.solicitudShowed{
+  display: inline-block;
+}
+.notaHidden{
+  display: none;
+}
+.notaShowed{
+  display: inline-block;
+}
+.reciboHidden{
+  display: none;
+}
+.reciboShowed{
+  display: inline-block;
+}
+.remisionHidden{
+  display: none;
+}
+.remisionShowed{
+  display: inline-block;
+}
+.tarjetaHidden{
+  display: none;
+}
+.tarjetaShowed{
+  display: inline-block;
+}
+.hojaHidden{
+  display: none;
+}
+.hojaShowed{
+  display: inline-block;
+}
+.sobresHidden{
+  display: none;
+}
+.sobresShowed{
+  display: inline-block;
+}
+.carpetaHidden{
+  display: none;
+}
+.carpetaShowed{
+  display: inline-block;
 }

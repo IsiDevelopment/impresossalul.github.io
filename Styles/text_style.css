@@ -29,6 +29,9 @@
 .font_15p{
   font-size: 20px;
 }
+.font_15p2{
+  font-size: 20px;
+}
 .font_20p{
   font-size: 23px;
 }
@@ -37,6 +40,10 @@
 }
 .text_foot{
   font-size: 20px;
+}
+.media_logo{
+  font-size: 28px;
+  font-family: 'Yantramanav', sans-serif;
 }
 @media screen and (max-width: 800px) {
   .font_25p{
@@ -50,5 +57,12 @@
   }
   .font_15p{
     font-size: 15px;
+  }
+  .font_15p2{
+    font-size: 12px;
+  }
+  .media_logo{
+    font-size: 15px;
+    font-family: 'Yantramanav', sans-serif;
   }
 }

@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Yantramanav:100" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="Styles/header.css" rel="stylesheet"/>
   <link href="Styles/Font.css" rel="stylesheet"/>
   <link href="Styles/images.css" rel="stylesheet"/>
@@ -21,7 +22,20 @@
   <link href="Styles/animation_image.css" rel="stylesheet"/>
   <link href="Styles/helpers.css" rel="stylesheet"/>
   <link rel="stylesheet" href="Styles/owl_carousel.css">
-  <title>La Imprenta | Offset | Impresiones hasta tu negocio</title>
+  <script src="JavaScript/actions.js"></script>
+  <title>La Imprenta | Offset, Revistas, Flyers | Impresiones hasta tu negocio | Trabajos en tiempo y forma</title>
+  <meta name="description" content="La Imprenta es un negocio que te ofrece un servicio
+  en tiempo y forma, con una gran calidad de impresiones a tu medida. Nosotros
+  nos adaptamos a tus ideas y hacemos que éstas se construyan. Lo que nos
+  caracteriza es el plus que le damos a tus trabajos. No busques más y contáctanos.
+  Somos tu mejor opción." />
+  <meta name="keywords" content="Offset, Papelería, Papelería corporativa,
+  Imprenta, Notas, formas impresas, impresión, impresión de comandas,
+  papelería comercial, papelería interna, impresiones, papel, reportes,
+  menús">
+  <script type="text/javascript">
+
+  </script>
 </head>
 <body>
   <nav class="navbar navbar-inverse" id="header">
@@ -61,8 +75,8 @@
               Clientes
             </a>
           </li>
-          <li class="dropdown" id="h_item">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          <li id="h_item">
+            <a href="#contact">
               Cont&aacute;ctanos
             </a>
           </li>
@@ -104,68 +118,160 @@
         <div class="owl-carousel" id="pap_interna">
           <div>
             <img src="Images/formato_control.jpg" class="image_radius15">
-            <a href="#" id="a_ref">
-              <br/>
-              <div class="bg_red">
-                <p class="t_white font_15p">Formatos de Control</p>
+            <div id="a_ref">
+              <button class="bg_black3 t_white font_15p2 formatoShowButton
+              formatoShowed no_border" style="width: 100%">
+                Formatos de Control
+                <br><span class="glyphicon glyphicon-menu-down"></span>
+              </button>
+              <button class="bg_red3 t_white font_15p2 formatoHideButton
+              formatoHidden no_border">
+                <span class="glyphicon glyphicon-menu-up"></span>
+                <br/>
+                Formatos de Control
+              </button>
+              <div class="t_black font_15p formatoHidden"
+                style="width: 300%; margin-left: -100%">
+                <br/>
+                Formatos dise&ntilde;ados a tu gusto, con la mejor calidad
+                en el mercado y sobre todo, al mejor precio.
               </div>
-            </a>
+            </div>
           </div>
           <div>
             <img src="Images/report.jpg" class="image_radius15">
-            <a href="#" id="a_ref">
-              <br/>
-              <div class="bg_red">
-                <p class="t_white font_15p">Reportes</p>
+            <div id="a_ref">
+              <button class="bg_black3 t_white font_15p2 reporteShowButton
+              reporteShowed no_border" style="width: 100%">
+                Reportes
+                <br><span class="glyphicon glyphicon-menu-down"></span>
+              </button>
+              <button class="bg_red3 t_white font_15p2 reporteHideButton
+              reporteHidden no_border">
+                <span class="glyphicon glyphicon-menu-up"></span>
+                <br/>
+                Reportes
+              </button>
+              <div class="t_black font_15p reporteHidden"
+                style="width: 300%; margin-left: -100%">
+                <br/>
+                Reportes dise&ntilde;ados a tu gusto, con la mejor calidad
+                en el mercado y sobre todo, al mejor precio.
               </div>
-            </a>
+            </div>
           </div>
           <div>
             <img src="Images/restaurant.jpg" class="image_radius15">
-            <a href="#" id="a_ref">
-              <br/>
-              <div class="bg_red">
-                <p class="t_white font_15p">Comandas de Restaurant</p>
+            <div id="a_ref">
+              <button class="bg_black3 t_white font_15p2 comandaShowButton
+              comandaShowed no_border" style="width: 100%">
+                Comandas de Restaurant
+                <br><span class="glyphicon glyphicon-menu-down"></span>
+              </button>
+              <button class="bg_red3 t_white font_15p2 comandaHideButton
+              comandaHidden no_border">
+                <span class="glyphicon glyphicon-menu-up"></span>
+                <br/>
+                Comandas de Restaurant
+              </button>
+              <div class="t_black font_15p comandaHidden"
+                style="width: 300%; margin-left: -100%">
+                <br/>
+                Comandas dise&ntilde;adas a tu gusto, con la mejor calidad
+                en el mercado y sobre todo, al mejor precio.
               </div>
-            </a>
+            </div>
           </div>
           <div>
             <img src="Images/solicitud.jpg" class="image_radius15">
-            <a href="#" id="a_ref">
-              <br/>
-              <div class="bg_red">
-                <p class="t_white font_15p">Solicitudes</p>
+            <div id="a_ref">
+              <button class="bg_black3 t_white font_15p2 solicitudShowButton
+              solicitudShowed no_border" style="width: 100%">
+                Solicitudes
+                <br><span class="glyphicon glyphicon-menu-down"></span>
+              </button>
+              <button class="bg_red3 t_white font_15p2 solicitudHideButton
+              solicitudHidden no_border">
+                <span class="glyphicon glyphicon-menu-up"></span>
+                <br/>
+                Solicitudes
+              </button>
+              <div class="t_black font_15p solicitudHidden"
+                style="width: 300%; margin-left: -100%">
+                <br/>
+                Solicitudes dise&ntilde;adas a tu gusto, con la mejor calidad
+                en el mercado y sobre todo, al mejor precio.
               </div>
-            </a>
+            </div>
           </div>
           <div>
             <img src="Images/notas_venta.jpg" class="image_radius15">
-            <a href="#" id="a_ref">
-              <br/>
-              <div class="bg_red">
-                <p class="t_white font_15p">Notas de Venta</p>
+            <div id="a_ref">
+              <button class="bg_black3 t_white font_15p2 notaShowButton
+              notaShowed no_border" style="width: 100%">
+                Notas de Venta
+                <br><span class="glyphicon glyphicon-menu-down"></span>
+              </button>
+              <button class="bg_red3 t_white font_15p2 notaHideButton
+              notaHidden no_border">
+                <span class="glyphicon glyphicon-menu-up"></span>
+                <br/>
+                Notas de Venta
+              </button>
+              <div class="t_black font_15p notaHidden"
+                style="width: 300%; margin-left: -100%">
+                <br/>
+                Notas dise&ntilde;adas a tu gusto, con la mejor calidad
+                en el mercado y sobre todo, al mejor precio.
               </div>
-            </a>
+            </div>
           </div>
           <div>
             <img src="Images/recibos.jpg" class="image_radius15">
-            <a href="#" id="a_ref">
-              <br/>
-              <div class="bg_red">
-                <p class="t_white font_15p">Recibos</p>
+            <div id="a_ref">
+              <button class="bg_black3 t_white font_15p2 reciboShowButton
+              reciboShowed no_border" style="width: 100%">
+                Recibos
+                <br><span class="glyphicon glyphicon-menu-down"></span>
+              </button>
+              <button class="bg_red3 t_white font_15p2 reciboHideButton
+              reciboHidden no_border">
+                <span class="glyphicon glyphicon-menu-up"></span>
+                <br/>
+                Recibos
+              </button>
+              <div class="t_black font_15p reciboHidden"
+                style="width: 300%; margin-left: -100%">
+                <br/>
+                Recibos dise&ntilde;ados a tu gusto, con la mejor calidad
+                en el mercado y sobre todo, al mejor precio.
               </div>
-            </a>
+            </div>
           </div>
           <div>
             <img src="Images/notas_remision.jpg" class="image_radius15">
-            <a href="#" id="a_ref">
-              <br/>
-              <div class="bg_red">
-                <p class="t_white font_15p">Notas de Remisiones</p>
+            <div id="a_ref">
+              <button class="bg_black3 t_white font_15p2 remisionShowButton
+              remisionShowed no_border" style="width: 100%">
+                Notas de Remisiones
+                <br><span class="glyphicon glyphicon-menu-down"></span>
+              </button>
+              <button class="bg_red3 t_white font_15p2 remisionHideButton
+               remisionHidden no_border">
+                <span class="glyphicon glyphicon-menu-up"></span>
+                <br/>
+                Notas de Remisiones
+              </button>
+              <div class="t_black font_15p remisionHidden"
+                style="width: 300%; margin-left: -100%">
+                <br/>
+                Notas de remisiones dise&ntilde;adas a tu gusto, con la mejor calidad
+                en el mercado y sobre todo, al mejor precio.
               </div>
-            </a>
+            </div>
           </div>
         </div>
+        <br/>
       </div>
     </div>
   </div>
@@ -176,7 +282,7 @@
     <div class="row">
       <div class="column2_5p">&nbsp;</div>
       <div class="column4_space bg_white3 border_50">
-        <a href="#">
+        <!--<a href="#">-->
           <div class="move bg_gray4">
             <div class="container_col image_center">
               <img src="Images/blondas.jpg" class="image_col">
@@ -184,14 +290,14 @@
               </div>
             </div>
           </div>
-        </a>
+        <!--</a>-->
         <br/>
         <div class="t_center width_80 div_center">
-          <a href="#">
+          <!--<a href="#">-->
             <span class="t_red font_20p">
               Blondas
             </span>
-          </a>
+          <!--</a>-->
           <br/>
           <span class="font_12p t_black">
             Imprimimos tus blondas con el mejor dise&ntilde;o y calidad.
@@ -206,22 +312,18 @@
       <div class="column2_5p">&nbsp;</div>
       <div class="column4_space"><br/><br/><br/>
         <div class="bg_white3 border_50">
-          <a href="#">
-            <div class="move bg_gray4">
-              <div class="container_col image_center">
-                <img src="Images/menu.jpg" class="image_col">
-                <div class="middle_col">
-                </div>
+          <div class="move bg_gray4">
+            <div class="container_col image_center">
+              <img src="Images/menu.jpg" class="image_col">
+              <div class="middle_col">
               </div>
             </div>
-          </a>
+          </div>
           <br/>
           <div class="t_center width_80 div_center">
-            <a href="#">
-              <span class="t_red font_20p">
-                Men&uacute;s
-              </span>
-            </a>
+            <span class="t_red font_20p">
+              Men&uacute;s
+            </span>
             <br/>
             <span class="font_12p">
               Creamos los mejores dise&ntilde;os para el men&uacute;
@@ -234,22 +336,18 @@
       </div>
       <div class="column2_5p_ad">&nbsp;</div>
       <div class="column4_space bg_white3 border_50">
-        <a href="#">
-          <div class="move bg_gray4">
-            <div class="container_col image_center">
-              <img src="Images/mantel.jpg" class="image_col">
-              <div class="middle_col">
-              </div>
+        <div class="move bg_gray4">
+          <div class="container_col image_center">
+            <img src="Images/mantel.jpg" class="image_col">
+            <div class="middle_col">
             </div>
           </div>
-        </a>
+        </div>
         <br/>
         <div class="t_center width_80 div_center">
-          <a href="#">
-            <span class="t_red font_20p">
-              Manteles
-            </span>
-          </a>
+          <span class="t_red font_20p">
+            Manteles
+          </span>
           <br/>
           <span class="font_12p">
             &#191;Buscas los mejores manteles para tu hogar, evento o
@@ -263,22 +361,18 @@
       <div class="column2_5p">&nbsp;</div>
       <div class="column4_space"><br/><br/><br/>
         <div class="bg_white3 border_50">
-          <a href="#">
-            <div class="move bg_gray4">
-              <div class="container_col image_center">
-                <img src="Images/boletos.jpg" class="image_col">
-                <div class="middle_col">
-                </div>
+          <div class="move bg_gray4">
+            <div class="container_col image_center">
+              <img src="Images/boletos.jpg" class="image_col">
+              <div class="middle_col">
               </div>
             </div>
-          </a>
+          </div>
           <br/>
           <div class="t_center width_80 div_center">
-            <a href="#">
-              <span class="t_red font_20p">
-                Boletos
-              </span>
-            </a>
+            <span class="t_red font_20p">
+              Boletos
+            </span>
             <br/>
             <span class="font_12p">
               Creamos boletos de todo tipo, adecu&aacute;ndolos a tus
@@ -301,49 +395,139 @@
       <div class="owl-carousel text_foot" id="pap_empresarial" style="display: block">
         <div>
           <img src="Images/tarjeta_presentacion.jpg" class="image_radius15">
-          <a href="#" id="a_ref">
-            <br/>
-            <div class="bg_red">
-              <p class="t_white font_15p">Tarjetas de Presentaci&oacute;n</p>
+          <div id="a_ref">
+            <button class="bg_black3 t_white font_15p2 tarjetaShowButton
+            tarjetaShowed no_border" style="width: 100%">
+              Tarjetas de Presentaci&oacute;n
+              <br><span class="glyphicon glyphicon-menu-down"></span>
+            </button>
+            <button class="bg_red3 t_white font_15p2 tarjetaHideButton
+             tarjetaHidden no_border">
+              <span class="glyphicon glyphicon-menu-up"></span>
+              <br/>
+              Tarjetas de Presentaci&oacute;n
+            </button>
+            <div class="t_black font_15p tarjetaHidden"
+              style="width: 300%; margin-left: -100%">
+              <br/>
+              Tus tarjetas dise&ntilde;adas a tu gusto, con la mejor calidad
+              en el mercado y sobre todo, al mejor precio.
             </div>
-          </a>
+          </div>
         </div>
         <div>
           <img src="Images/hoja_membretada.jpg" class="image_radius15">
-          <a href="#" id="a_ref">
-            <br/>
-            <div class="bg_red">
-              <p class="t_white font_15p">Hojas Membretadas</p>
+          <div id="a_ref">
+            <button class="bg_black3 t_white font_15p2 hojaShowButton
+            hojaShowed no_border" style="width: 100%">
+              Hojas Membretadas
+              <br><span class="glyphicon glyphicon-menu-down"></span>
+            </button>
+            <button class="bg_red3 t_white font_15p2 hojaHideButton
+             hojaHidden no_border">
+              <span class="glyphicon glyphicon-menu-up"></span>
+              <br/>
+              Hojas Membretadas
+            </button>
+            <div class="t_black font_15p hojaHidden"
+              style="width: 300%; margin-left: -100%">
+              <br/>
+              Hojas dise&ntilde;adas a tu gusto, con la mejor calidad
+              en el mercado y sobre todo, al mejor precio.
             </div>
-          </a>
+          </div>
         </div>
         <div>
           <img src="Images/sobres.jpg" class="image_radius15">
-          <a href="#" id="a_ref">
-            <br/>
-            <div class="bg_red">
-              <p class="t_white font_15p">Sobres</p>
+          <div id="a_ref">
+            <button class="bg_black3 t_white font_15p2 sobresShowButton
+            sobresShowed no_border" style="width: 100%">
+              Sobres
+              <br><span class="glyphicon glyphicon-menu-down"></span>
+            </button>
+            <button class="bg_red3 t_white font_15p2 sobresHideButton
+             sobresHidden no_border">
+              <span class="glyphicon glyphicon-menu-up"></span>
+              <br/>
+              Sobres
+            </button>
+            <div class="t_black font_15p sobresHidden"
+              style="width: 300%; margin-left: -100%">
+              <br/>
+              Sobres dise&ntilde;ados a tu gusto, con la mejor calidad
+              en el mercado y sobre todo, al mejor precio.
             </div>
-          </a>
+          </div>
         </div>
         <div>
           <img src="Images/carpetas.jpg" class="image_radius15">
-          <a href="#" id="a_ref">
-            <br/>
-            <div class="bg_red">
-              <p class="t_white font_15p">Carpetas</p>
+          <div id="a_ref">
+            <button class="bg_black3 t_white font_15p2 carpetaShowButton
+            carpetaShowed no_border" style="width: 100%">
+              Carpetas
+              <br><span class="glyphicon glyphicon-menu-down"></span>
+            </button>
+            <button class="bg_red3 t_white font_15p2 carpetaHideButton
+             carpetaHidden no_border">
+              <span class="glyphicon glyphicon-menu-up"></span>
+              <br/>
+              Carpetas
+            </button>
+            <div class="t_black font_15p carpetaHidden"
+              style="width: 300%; margin-left: -100%">
+              <br/>
+              Tus carpetas dise&ntilde;adas a tu gusto, con la mejor calidad
+              en el mercado y sobre todo, al mejor precio.
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </div>
     <br/>
   </div>
-  <br>
-  <br>
-  <br>
-  <footer
-    <p><a href="#">La Imprenta</a></p>
+  <footer class="bg_black">
+    <div id="contact">
+        <br/>
+        <div>
+          <p class="t_center t_white font_25p">
+            <b>
+            Cont&aacute;ctanos
+          </b>
+        </p>
+        </div>
+        <br/>
+        <div class="row">
+          <div class="column2items_space">&nbsp;</div>
+          <div class="column2items">
+            <span>
+              <a style="text-decoration: none"
+              href="https://www.facebook.com/laimprentacdmx/"
+              class="fa fa-facebook"></a>
+              <a style="text-decoration: none"
+              href="https://www.facebook.com/laimprentacdmx/"><b class="media_logo t_white">Facebook<b></a>
+            </span>
+            <br/><br/>
+            <span class="media_logo t_white">
+              Tel&eacute;fono: 55 9166 4300
+            </span>
+            <br/><br/>
+          </div>
+          <div class="column2items_space">&nbsp;</div>
+          <div class="column2items">
+            <b class="media_logo t_white">Correo electr&oacute;nico:
+              <a style="text-decoration: none"
+              href="mailto:contactolaimprenta@gmail.com">
+              contactolaimprenta@gmail.com
+              </a>
+            </b><br/><br/>
+            <span class="media_logo t_white">
+              <b>Ubicaci&oacute;n:</b> Calz. De la Naranja #891 Col. Ampl.
+              San Pedro Xalpa, Azcapotzalco Ciudad de M&eacute;xico
+            </span>
+          </div>
+          <div class="column2items_space">&nbsp;</div>
+        </div><br/>
+      </div>
   </footer>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js'></script>

@@ -50,6 +50,24 @@
   background: #333;
   border-radius: 15px;
 }
+.bg_black3{
+  background: #333;
+  width: 100%;
+  border-radius: 0 0 15px 15px;
+}
+.bg_black3:hover{
+  background: #CC0001;
+  width: 100%;
+}
+.bg_red3{
+  background: #CC0001;
+  width: 100%;
+  border-radius: 0 0 15px 15px;
+}
+.bg_red3:hover{
+  background: #333;
+  width: 100%;
+}
 .bg_green01:hover{
   background: #9fac43;
 }
